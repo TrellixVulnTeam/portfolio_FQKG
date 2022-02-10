@@ -1,7 +1,18 @@
+import AboutMe from "../components/About";
 import Head from "next/head";
 import Image from "next/image";
+import headshot from "../../headshot.jpeg";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <div className="text-3xl font-bold underline"></div>;
+  return (
+    <div>
+      <Head>
+        <title>Luke Skycoder: Software development by Luke Chaplin</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <AboutMe />
+      <Image src={headshot} alt="Photo of Luke Chaplin" />
+    </div>
+  );
 }
