@@ -1,5 +1,6 @@
 import Head from "next/head";
-import InstagramEmbed from "react-instagram-embed";
+import Image from "next/image";
+import headshot from "../../headshot.jpeg";
 
 function Interesting() {
   return (
@@ -7,19 +8,10 @@ function Interesting() {
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
-      <p>hello</p>
-      <InstagramEmbed
-        url="https://instagram.com/p/B6G3gjcDgsT"
-        clientAccessToken="appid|clienttoken"
-        hideCaption={false}
-        containerTagName="div"
-        protocol=""
-        injectScript
-        onLoading={() => {}}
-        onSuccess={() => {}}
-        onAfterRender={() => {}}
-        onFailure={() => {}}
-      />
+
+      <a href="https://www.instagram.com/p/CDwGAm7jMir/">
+        <Image src={headshot} />
+      </a>
     </div>
   );
 }
