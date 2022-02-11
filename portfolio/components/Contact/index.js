@@ -1,53 +1,40 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
-export default function ContactForm() {
-  const [state, handleSubmit] = useForm("mpzbdaql");
-  if (state.succeeded) {
-    return <p>Thanks for submitting!</p>;
-  }
+export default function ContactMe() {
   return (
-    <form
-      onSubmit={handleSubmit}
-      id="fs-frm"
-      name="simple-contact-form"
-      action="https://formspree.io/f/mpzbdaql"
-      method="POST"
-    >
-      <fieldset id="fs-frm-inputs">
-        <label>Full Name</label>
+    <div>
+      <form action="https://usebasin.com/f/4dbdd7706b10" method="POST">
+        <label>First Name</label>
         <input
           type="text"
-          name="name"
-          id="full-name"
-          placeholder="First Name, Last Name"
-          required=""
+          id="fname"
+          name="firstname"
+          placeholder="Your first name.."
         />
-        <label>Email Address</label>
+
+        <label>Last Name</label>
         <input
-          type="email"
-          name="_replyto"
-          id="email-address"
-          placeholder="Email Address"
-          required=""
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
         />
-        <label>Message</label>
+
+        <label>E-mail</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your e-mail"
+        />
+
+        <label>Subject</label>
         <textarea
-          rows="5"
-          name="message"
-          id="message"
-          placeholder="Enter your message here"
-          required=""
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
         ></textarea>
-        <input
-          type="hidden"
-          name="_subject"
-          id="email-subject"
-          value="Contact Form Submission"
-        />
-      </fieldset>
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-    </form>
+
+        <input name="button" type="submit" value="Submit"></input>
+      </form>
+    </div>
   );
 }
