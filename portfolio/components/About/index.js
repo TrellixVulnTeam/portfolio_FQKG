@@ -5,7 +5,8 @@ export default function AboutMe() {
       welcome to my homepage
       <br></br>
       At the bottom of this page you will find links to my socials and also my
-      CV and a contact form to reach out to me directly.
+      CV, you can also use the form on my contact page to reach out to me
+      directly.
     </p>
   );
 }
