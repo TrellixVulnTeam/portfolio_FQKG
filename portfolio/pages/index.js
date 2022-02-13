@@ -1,4 +1,4 @@
-import AboutMe from "../components/About";
+import Intro from "../components/Intro";
 import Head from "next/head";
 import Image from "next/image";
 import headshot from "../../headshot.jpeg";
@@ -11,7 +11,7 @@ export default function Home() {
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AboutMe />
+      <Intro />
       <Image src={headshot} alt="Photo of Luke Chaplin" />
     </div>
   );
