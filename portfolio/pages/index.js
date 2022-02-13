@@ -9,7 +9,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Intro />
       <Image src={headshot} alt="Photo of Luke Chaplin" />
