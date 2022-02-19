@@ -1,4 +1,4 @@
-export default function ContactMe() {
+export default function ContactForm() {
   return (
     <div>
       <form action="https://usebasin.com/f/4dbdd7706b10" method="POST">
