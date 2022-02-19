@@ -1,7 +1,7 @@
 import Intro from "../components/Intro";
 import Head from "next/head";
 import Image from "next/image";
-import headshot from "../../headshot.jpeg";
+import headshot from "../../portfolio/headshot.jpeg";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
