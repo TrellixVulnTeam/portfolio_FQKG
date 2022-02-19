@@ -16,7 +16,7 @@ function MobileNav({ open, setOpen }) {
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
-        {" "}
+        {/*Home container*/}
         <a className="text-xl font-semibold" href="/">
           Home
         </a>
@@ -31,10 +31,10 @@ function MobileNav({ open, setOpen }) {
             }, 100)
           }
         >
-          About
+          About Me
         </a>
         <a
-          className="text-xl font-medium my-4"
+          className="text-xl font-normal my-4"
           href="/interesting"
           onClick={() =>
             setTimeout(() => {
@@ -45,7 +45,7 @@ function MobileNav({ open, setOpen }) {
           Interesting Facts
         </a>
         <a
-          className="text-xl font-medium my-4"
+          className="text-xl font-normal my-4"
           href="/projects"
           onClick={() =>
             setTimeout(() => {
@@ -64,7 +64,7 @@ function MobileNav({ open, setOpen }) {
             }, 100)
           }
         >
-          Contact
+          Contact Me
         </a>
       </div>
     </div>
