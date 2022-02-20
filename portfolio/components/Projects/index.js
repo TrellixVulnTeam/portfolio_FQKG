@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MealRecipefinder from "../../MealRecipefinder.png";
 import CocktailRecipeFinder from "../../CocktailRecipeFinder.png";
 import ToDoList from "../../ToDoList.png";
@@ -27,7 +26,10 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w3d5-fetch-recipe-challange-luke-lilly"
               target="blank"
             >
-              <Image src={MealRecipefinder} alt="Photo of Meal Recipe Finder" />
+              <img
+                src={MealRecipefinder.src}
+                alt="Photo of Meal Recipe Finder"
+              />
             </a>
           </li>
           <br></br>
@@ -42,8 +44,8 @@ export default function MyProjects() {
               href="https://github.com/lukechaplin/christmascocktails"
               target="blank"
             >
-              <Image
-                src={CocktailRecipeFinder}
+              <img
+                src={CocktailRecipeFinder.src}
                 alt="Photo of Cocktial Recipe Finder"
               />
             </a>
@@ -57,7 +59,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w7d4_react-hackathon-room-36-lilly-luke-andilham"
               target="blank"
             >
-              <Image src={ToDoList} alt="Photo of To Do List" />
+              <img src={ToDoList.src} alt="Photo of To Do List" />
             </a>
           </li>
           <br></br>
@@ -71,7 +73,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-37"
               target="blank"
             >
-              <Image src={weatherapp} alt="Photo of 5-Day Weather App" />
+              <img src={weatherapp.src} alt="Photo of 5-Day Weather App" />
             </a>
           </li>
           <br></br>
@@ -86,8 +88,8 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/hackathon-next-gatsby-room-16-antonio-and-luke"
               target="blank"
             >
-              <Image
-                src={Weatherappgatsby}
+              <img
+                src={Weatherappgatsby.src}
                 alt="Photo of 5-Day Weather App made with Gatsby"
               />
             </a>
