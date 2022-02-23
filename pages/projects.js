@@ -3,7 +3,7 @@ import MyProjects from "../components/Projects/index";
 
 export default function Projects() {
   return (
-    <div>
+    <div class="p-10">
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>

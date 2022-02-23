@@ -3,7 +3,7 @@ import Head from "next/head";
 
 function About() {
   return (
-    <div>
+    <div class="p-10">
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>

@@ -3,7 +3,7 @@ import ContactForm from "../components/Contact/index";
 
 export default function ContactMe() {
   return (
-    <div>
+    <div class="p-10">
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
