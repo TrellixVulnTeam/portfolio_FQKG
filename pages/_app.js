@@ -1,4 +1,4 @@
-import Navbar from "../../portfolio/components/Navbar/index";
+import Navbar from "../components/Navbar/index";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
