@@ -49,8 +49,8 @@ export default function Footer() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
-        <div className="flex mb-4 space-x-4 flex flex-wrap"></div>
-        <div className="flex mt-2 mb-2 space-x-2">
+        <div className="flex mb-4 space-x-4 "></div>
+        <div className="flex mt-2 mb-2 space-x-2 flex flex-wrap">
           <div>{`© Copyright ${new Date().getFullYear()}`}</div>
           <div>{" • "}</div>
           <div>Luke Chaplin</div>
