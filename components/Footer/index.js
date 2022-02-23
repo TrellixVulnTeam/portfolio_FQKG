@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="text-2xl font-mono">
+    <footer className="text-2xl font-mono p-20">
       <div class="grid justify-items-center ">
         <a
           class="hover:scale-150"
