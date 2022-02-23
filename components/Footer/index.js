@@ -50,11 +50,9 @@ export default function Footer() {
           </a>
         </div>
         <div className="flex mb-4 space-x-4 "></div>
-        <div className="flex mt-2 mb-2 space-x-2 flex flex-wrap">
-          <div>{`© Copyright ${new Date().getFullYear()}`}</div>
-          <div>{" • "}</div>
-          <div>Luke Chaplin</div>
-        </div>
+        <div>{`© Copyright ${new Date().getFullYear()}`}</div>
+        <div class="justify-items-center">{" • "}</div>
+        <div class="justify-items-center">Luke Chaplin</div>
       </div>
     </footer>
   );
