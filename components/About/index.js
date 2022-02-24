@@ -34,6 +34,8 @@ export default function AboutMe() {
           <li>
             <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
           </li>
+        </ul>
+        <ul class="flex mb-4 space-x-2">
           <li>
             <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
           </li>
@@ -55,6 +57,8 @@ export default function AboutMe() {
           <li>
             <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
           </li>
+        </ul>
+        <ul class="flex mb-4 space-x-2">
           <li>
             <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
           </li>
@@ -76,6 +80,8 @@ export default function AboutMe() {
           <li>
             <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" />
           </li>
+        </ul>
+        <ul class="flex mb-4 space-x-2">
           <li>
             <img src="https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white" />
           </li>
