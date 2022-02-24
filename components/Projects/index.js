@@ -28,7 +28,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w3d5-fetch-recipe-challange-luke-lilly"
               target="blank"
             >
-              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+              <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img
                   src={MealRecipefinder.src}
                   alt="Photo of Meal Recipe Finder"
@@ -50,7 +50,7 @@ export default function MyProjects() {
               href="https://github.com/lukechaplin/christmascocktails"
               target="blank"
             >
-              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img
                   src={CocktailRecipeFinder.src}
                   alt="Photo of Cocktial Recipe Finder"
@@ -69,7 +69,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w7d4_react-hackathon-room-36-lilly-luke-andilham"
               target="blank"
             >
-              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img src={ToDoList.src} alt="Photo of To Do List" />
               </div>
             </a>
@@ -87,7 +87,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-37"
               target="blank"
             >
-              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img src={weatherapp.src} alt="Photo of 5-Day Weather App" />
               </div>
             </a>
@@ -107,7 +107,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/hackathon-next-gatsby-room-16-antonio-and-luke"
               target="blank"
             >
-              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img
                   src={Weatherappgatsby.src}
                   alt="Photo of 5-Day Weather App made with Gatsby"

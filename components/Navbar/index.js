@@ -17,7 +17,7 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
         {/*Home container*/}
-        <a className="text-xl font-semibold font-mono" href="/">
+        <a className="text-xl font-semibold font-m" href="/">
           Home
         </a>
       </div>
@@ -74,10 +74,10 @@ function MobileNav({ open, setOpen }) {
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex filter drop-shadow-md bg-white px-4 py-4 h-20 items-center">
+    <nav className="flex filter drop-shadow-md bg-gradient-to-r from-purple-200 px-4 py-4 h-20 items-center">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
-        <a className="text-2xl font-semibold" href="/">
+        <a className="text-2xl font-mono font-semibold" href="/">
           Home
         </a>
       </div>
@@ -106,7 +106,7 @@ export default function Navbar() {
           />
         </div>
 
-        <div className="hidden md:flex">
+        <div className="hidden md:flex font-mono font-semibold">
           <NavLink to="/about">About Me</NavLink>
           <NavLink to="/interesting">Interesting Facts</NavLink>
           <NavLink to="/projects">Projects</NavLink>

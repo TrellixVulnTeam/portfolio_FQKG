@@ -15,8 +15,11 @@ export default function InterestingFacts() {
           please see below for my last show from before lockdown
         </li>
         <br></br>
-        <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
-          <img class="drop-shadow-2xl max-w-xs rounded-full" src={circus.src} />
+        <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center">
+          <img
+            class="drop-shadow-2xl max-w-xs rounded-full -z-10"
+            src={circus.src}
+          />
         </div>
         <br></br>
         <br></br>
@@ -25,8 +28,11 @@ export default function InterestingFacts() {
           here is a pic of my old home
         </li>
         <br></br>
-        <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
-          <img class="drop-shadow-2xl max-w-xs rounded-full" src={boat.src} />
+        <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center">
+          <img
+            class="drop-shadow-2xl max-w-xs rounded-full -z-10"
+            src={boat.src}
+          />
         </div>
         <br></br>
         <br></br>
@@ -35,9 +41,9 @@ export default function InterestingFacts() {
           a row :-(
         </li>
         <br></br>
-        <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+        <div class="max-w-screen-lg mx-auto pb-10 flex justify-center">
           <img
-            class="drop-shadow-2xl max-w-xs rounded-full"
+            class="drop-shadow-2xl max-w-xs rounded-full -z-10"
             src={milkyBar.src}
           />
         </div>
