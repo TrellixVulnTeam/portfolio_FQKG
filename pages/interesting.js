@@ -7,7 +7,7 @@ function Interesting() {
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
-      <InterestingFacts />;
+      <InterestingFacts />
     </div>
   );
 }

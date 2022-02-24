@@ -10,17 +10,11 @@ export default function AboutMe() {
         management.
         <br></br>
         <br></br>
-        As part of this bootcamp I have coded remotely using pair programming
-        and as part of agile teams and I have developed apps in both vanilla
+        As part of this bootcamp I have coded remotely using pair programming,
+        as part of agile teams and I have developed apps in both vanilla
         languages and frameworks (React, Node, Express) utilising UI libraries
         which have been presented to industry leaders as part of tech demo days.
       </p>
-      <br></br>
-      <br></br>
-      As part of this bootcamp I have coded remotely using pair programming and
-      as part of agile teams and I have developed apps in both vanilla languages
-      and frameworks (React, Node, Express) utilising UI libraries which have
-      been presented to industry leaders as part of tech demo days.
       <br></br>
       <br></br>
       <p>

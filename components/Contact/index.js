@@ -1,11 +1,6 @@
 export default function ContactForm() {
   return (
     <div className="text-2xl font-mono w-full'">
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <form
         class="border-4"
         action="https://usebasin.com/f/4dbdd7706b10"

@@ -14,7 +14,7 @@ export default function Home() {
       <br></br>
       <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
         <img
-          class="drop-shadow-2xl- max-w-xs rounded-full "
+          class="drop-shadow-2xl max-w-xs rounded-full "
           src={headshot.src}
           alt="Photo of Luke Chaplin"
         />

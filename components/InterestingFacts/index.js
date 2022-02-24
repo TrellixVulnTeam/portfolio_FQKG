@@ -1,11 +1,11 @@
 import Head from "next/head";
 import circus from "../../circus.JPG";
 import boat from "../../boat.JPG";
-import milkyBar from "../../milkyBar.jpeg";
+import milkyBar from "../../milkyBar.png";
 
 export default function InterestingFacts() {
   return (
-    <div>
+    <div className="text-2xl font-mono p-15">
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
@@ -14,21 +14,33 @@ export default function InterestingFacts() {
           Interesting fact #1: I perform circus/acrobatics in my spare time,
           please see below for my last show from before lockdown
         </li>
-        <img src={circus.src} />
+        <br></br>
+        <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+          <img class="drop-shadow-2xl max-w-xs rounded-full" src={circus.src} />
+        </div>
         <br></br>
         <br></br>
         <li>
           Interesting fact #2: I used to live on a canal boat for over 5 years,
           here is a pic of my old home
         </li>
-        <img src={boat.src} />
+        <br></br>
+        <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+          <img class="drop-shadow-2xl max-w-xs rounded-full" src={boat.src} />
+        </div>
         <br></br>
         <br></br>
         <li>
           Interesting fact #3: I lost out on being the Milky bar Kid 2 years in
           a row :-(
         </li>
-        <img src={milkyBar.src} />
+        <br></br>
+        <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+          <img
+            class="drop-shadow-2xl max-w-xs rounded-full"
+            src={milkyBar.src}
+          />
+        </div>
       </ul>
     </div>
   );

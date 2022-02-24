@@ -7,7 +7,7 @@ export default function ContactMe() {
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
-      <ContactForm />;
+      <ContactForm />
     </div>
   );
 }

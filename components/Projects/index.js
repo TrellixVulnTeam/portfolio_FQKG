@@ -17,81 +17,102 @@ export default function MyProjects() {
       <div>
         <ul>
           <li>
-            <h1>Meal Recipe Finder App</h1>
+            <h1 class="font-bold">Meal Recipe Finder App</h1>
+            <br></br>
             <p>
               Created with vanilla HTML, CSS, JavaScript & use of asynchronous
               function API Calls
             </p>
+            <br></br>
             <a
               href="https://github.com/SchoolOfCode/w3d5-fetch-recipe-challange-luke-lilly"
               target="blank"
             >
-              <img
-                src={MealRecipefinder.src}
-                alt="Photo of Meal Recipe Finder"
-              />
+              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+                <img
+                  src={MealRecipefinder.src}
+                  alt="Photo of Meal Recipe Finder"
+                />
+              </div>
             </a>
           </li>
           <br></br>
           <br></br>
           <li>
-            <h1>Cocktail Recipe Finder App</h1>
+            <h1 class="font-bold">Cocktail Recipe Finder App</h1>
+            <br></br>
             <p>
               Created with vanilla HTML, CSS, JavaScript & use of asynchronous
               function API calls
             </p>
+            <br></br>
             <a
               href="https://github.com/lukechaplin/christmascocktails"
               target="blank"
             >
-              <img
-                src={CocktailRecipeFinder.src}
-                alt="Photo of Cocktial Recipe Finder"
-              />
+              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+                <img
+                  src={CocktailRecipeFinder.src}
+                  alt="Photo of Cocktial Recipe Finder"
+                />
+              </div>
             </a>
           </li>
           <br></br>
           <br></br>
           <li>
-            <h1>To Do List</h1>
+            <h1 class="font-bold">To Do List</h1>
+            <br></br>
             <p>Created with React</p>
+            <br></br>
             <a
               href="https://github.com/SchoolOfCode/w7d4_react-hackathon-room-36-lilly-luke-andilham"
               target="blank"
             >
-              <img src={ToDoList.src} alt="Photo of To Do List" />
+              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+                <img src={ToDoList.src} alt="Photo of To Do List" />
+              </div>
             </a>
           </li>
           <br></br>
           <br></br>
           <li>
-            <h1>5-Day Weather Forecast App</h1>
+            <h1 class="font-bold">5-Day Weather Forecast App</h1>
+            <br></br>
             <p>
               Created with React, CSS & use of asynchronous function API calls
             </p>
+            <br></br>
             <a
               href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-37"
               target="blank"
             >
-              <img src={weatherapp.src} alt="Photo of 5-Day Weather App" />
+              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+                <img src={weatherapp.src} alt="Photo of 5-Day Weather App" />
+              </div>
             </a>
+            <br></br>
           </li>
           <br></br>
           <br></br>
           <li>
-            <h1>5-Day Weather Forecast App (Gatsby)</h1>
+            <h1 class="font-bold">5-Day Weather Forecast App (Gatsby)</h1>
+            <br></br>
             <p>
               Created with React, Gatsby & use of asynchronous function API
               calls
             </p>
+            <br></br>
             <a
               href="https://github.com/SchoolOfCode/hackathon-next-gatsby-room-16-antonio-and-luke"
               target="blank"
             >
-              <img
-                src={Weatherappgatsby.src}
-                alt="Photo of 5-Day Weather App made with Gatsby"
-              />
+              <div class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+                <img
+                  src={Weatherappgatsby.src}
+                  alt="Photo of 5-Day Weather App made with Gatsby"
+                />
+              </div>
             </a>
           </li>
         </ul>
