@@ -51,7 +51,6 @@ export default function Footer() {
         </div>
         <div className="flex mb-4 space-x-4 "></div>
         <div>{`© Copyright ${new Date().getFullYear()}`}</div>
-        <div class="justify-items-center">{" • "}</div>
         <div class="justify-items-center">Luke Chaplin</div>
       </div>
     </footer>
