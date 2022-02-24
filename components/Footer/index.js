@@ -11,7 +11,7 @@ import {
 export default function Footer() {
   return (
     <footer className="text-2xl font-mono p-15 bg-gradient-to-r from-purple-200">
-      <div class="border-t flex flex-col items-center pt-6'">
+      <div class="border-t flex flex-col items-center pt-6">
         <div className="flex mb-4 space-x-2">
           <a
             class="hover:scale-150"
