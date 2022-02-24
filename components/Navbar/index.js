@@ -17,7 +17,7 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
         {/*Home container*/}
-        <a className="text-xl font-semibold" href="/">
+        <a className="text-xl font-semibold font-mono" href="/">
           Home
         </a>
       </div>

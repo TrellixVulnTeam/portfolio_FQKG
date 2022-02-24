@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div>
+    <div class="text-2xl font-mono">
       <p>
         I recently decided to re-train and join the tech industry and I am
         currently enrolled in a coding bootcamp to become a full stack software
@@ -25,6 +25,7 @@ export default function AboutMe() {
       <br></br>
       <p>
         I am in the process of learning the following:
+        <br></br>
         <br></br>
         <ul>
           <li>HTML</li>
