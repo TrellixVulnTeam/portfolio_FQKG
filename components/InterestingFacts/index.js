@@ -1,7 +1,7 @@
 import Head from "next/head";
 import circus from "../../circus.JPG";
 import boat from "../../boat.JPG";
-import milkyBar from "../../milkyBar.png";
+import milkyBar from "../../milkyBar.jpeg";
 
 export default function InterestingFacts() {
   return (
