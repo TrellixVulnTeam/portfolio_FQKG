@@ -36,7 +36,7 @@ export default function Footer() {
           </a>
           <a
             class="hover:scale-150"
-            href="https://docs.google.com/document/d/1yL9qfQDGfGMZzAIRZsP7-gSKzyRbbkNZ/edit"
+            href="https://drive.google.com/file/d/13GmtEM_WeP09MwC5BT64K0A98SrfvwEs/view?usp=sharing"
             target="_blank"
           >
             <FontAwesomeIcon icon={faGoogleDrive} />
