@@ -11,8 +11,7 @@ export default function InterestingFacts() {
       </Head>
       <ul>
         <li>
-          Interesting fact #1: I perform circus/acrobatics in my spare time,
-          please see below for my last show from before lockdown
+          Interesting fact #1: I perform circus/acrobatics in my spare time
         </li>
         <br></br>
         <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center">
