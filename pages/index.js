@@ -1,7 +1,7 @@
 import Intro from "../components/Intro";
 import Head from "next/head";
 import headshot from "../headshot.jpeg";
-import styles from "../styles/Home.module.css";
+import Logo from "../components/Logo/index";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
+      <Logo />
       <Intro />
       <br></br>
       <br></br>
