@@ -35,19 +35,20 @@ export default function Footer() {
           >
             <FontAwesomeIcon icon={faInstagramSquare} />
           </a>
-          <a
-            class="hover:scale-150"
-            href="https://drive.google.com/file/d/13GmtEM_WeP09MwC5BT64K0A98SrfvwEs/view?usp=sharing"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faFile} />
-          </a>
+
           <a
             class="hover:scale-150"
             href="https://github.com/lukechaplin"
             target="_blank"
           >
             <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a
+            class="hover:scale-150"
+            href="https://drive.google.com/file/d/13GmtEM_WeP09MwC5BT64K0A98SrfvwEs/view?usp=sharing"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faFile} />
           </a>
         </div>
         <div className="flex mb-4 space-x-4 "></div>
