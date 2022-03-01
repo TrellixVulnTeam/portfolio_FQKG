@@ -4,9 +4,10 @@ import {
   faTwitterSquare,
   faLinkedin,
   faInstagramSquare,
-  faGoogleDrive,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -39,7 +40,7 @@ export default function Footer() {
             href="https://drive.google.com/file/d/13GmtEM_WeP09MwC5BT64K0A98SrfvwEs/view?usp=sharing"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faGoogleDrive} />
+            <FontAwesomeIcon icon={faFile} />
           </a>
           <a
             class="hover:scale-150"
