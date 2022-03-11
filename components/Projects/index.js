@@ -3,6 +3,7 @@ import CocktailRecipeFinder from "../../CocktailRecipeFinder.png";
 import ToDoList from "../../ToDoList.png";
 import weatherapp from "../../weatherapp.png";
 import Weatherappgatsby from "../../Weatherappgatsby.png";
+import giphy from "../../giphy.gif";
 
 export default function MyProjects() {
   return (
@@ -16,6 +17,21 @@ export default function MyProjects() {
       <br></br>
       <div>
         <ul>
+          <li className="border-4 drop-shadow-2xl">
+            <h1 class="font-bold">Family Chore Planner App</h1>
+            <br></br>
+            <p>Created with React-Native, optimised for iOS</p>
+            <br></br>
+            <a
+              href="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
+              target="blank"
+            >
+              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+                <img src={giphy.src} alt="Family App Gif" />
+              </div>
+            </a>
+          </li>
+          <br></br>
           <li className="border-4 drop-shadow-2xl">
             <h1 class="font-bold">Meal Recipe Finder App</h1>
             <br></br>
