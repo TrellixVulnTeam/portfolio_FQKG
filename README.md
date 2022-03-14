@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+My portfolio website - created with react and bootstrapped with Next.js & Tailwind CSS
 
-First, run the development server:
+## Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Getting started
+2. Sections
+   1. Components
+3. Current Issues
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Getting Started
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To open the list app code base, clone down the code base from github, as shown below.
+_NB: Code is public_
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Link to github:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![](screenshot1.png)
 
-## Learn More
+_Remember to install npm i dependencies_
 
-To learn more about Next.js, take a look at the following resources:
+![](screenshot2.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The below shows the structure of the components and pages for my site.
 
-## Deploy on Vercel
+#### Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Pages
+
+   1. App Where useState for list and text that will be contained within the list are stored and called by the relevant components and functions. _(Also where all components are called and will placed in render section so they appear in the html in the browser)_
+   2. Input (Component rendering user input text field and button)
+   3. List data - where initial empty array is stored that is used as the basis for populating the list data.
+   4. List item - component containing the containing the function that will allow for the each item added to the list to be rendered and also the delete button that will allow for the item to be removed from the list if needed.
+
+3. Public (contains standard React public files and the main index html where the react components will be rendered to)
+
+### Current Issues
+
+N/A
