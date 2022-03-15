@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <p className="text-2xl font-mono p-15">
-      Hi, I'm Luke and as it says in the tab I am an aspiring web developer,
+      Hi, I'm Luke and as it says in the tab I am a full stack web developer,
       welcome to my homepage
       <br></br>
       <br></br>
