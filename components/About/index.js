@@ -12,14 +12,14 @@ export default function AboutMe() {
         <br></br>
         As part of this bootcamp I have coded remotely using pair programming,
         as part of agile teams and I have developed apps in both vanilla
-        languages and frameworks (React, React Native Node & Express) utilising
-        UI libraries which have been presented to industry leaders as part of
-        tech demo days.
+        languages and frameworks (React, React Native, Node & Express)
+        incorporating UI libraries which have been presented to industry leaders
+        as part of tech demo days.
       </p>
       <br></br>
       <br></br>
       <p>
-        I am in the process of learning the following:
+        I am in expereiced in the following tech stacks:
         <br></br>
         <br></br>
         <h1>Languages</h1>
