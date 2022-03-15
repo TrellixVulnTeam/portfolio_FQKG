@@ -2,24 +2,24 @@ export default function AboutMe() {
   return (
     <div class="text-2xl font-mono">
       <p>
-        I recently decided to re-train and join the tech industry and I am
-        currently enrolled in a coding bootcamp to become a full stack software
-        developer. I previously worked in the global pharmaceutical industry &
-        UK NHS/academic sectors with extensive industry experience in clinical &
-        medical device trials, budget & vendor management, training and line
-        management.
+        I recently decided to re-train and join the tech industry and I have
+        sucessfully completed a coding bootcamp and I am now a full stack
+        software developer. I previously worked in the global pharmaceutical
+        industry & UK NHS/academic sectors with extensive industry experience in
+        clinical & medical device trials, budget & vendor management, training
+        and line management.
         <br></br>
         <br></br>
         As part of this bootcamp I have coded remotely using pair programming,
         as part of agile teams and I have developed apps in both vanilla
-        languages and frameworks (React, React Native, Node & Express)
-        incorporating UI libraries which have been presented to industry leaders
-        as part of tech demo days.
+        languages and frameworks (React, React Native, Node & Express -
+        incorporating UI libraries) which have been presented to industry
+        leaders as part of tech demo days.
       </p>
       <br></br>
       <br></br>
       <p>
-        I am in expereiced in the following tech stacks:
+        I am expereiced in the following tech stacks:
         <br></br>
         <br></br>
         <h1>Languages</h1>
