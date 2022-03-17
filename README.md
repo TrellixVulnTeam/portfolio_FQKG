@@ -2,7 +2,7 @@
 
 My portfolio website - created with react and bootstrapped with Next.js & Tailwind CSS
 
-NB: This is a re-build of my original portfolio site which you can see here which was built in vanilla languages: ![original portfolio](https://github.com/SchoolOfCode/w4d1_week3-recap-lukechaplin)
+NB: This is a re-build of my original portfolio site which you can see here which was built in vanilla languages: [original portfolio](https://github.com/SchoolOfCode/w4d1_week3-recap-lukechaplin)
 
 ## Contents
 
