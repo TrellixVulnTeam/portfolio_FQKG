@@ -20,7 +20,10 @@ export default function MyProjects() {
           <li className="border-4 drop-shadow-2xl">
             <h1 class="font-bold">Family Chore Planner App</h1>
             <br></br>
-            <p>Created with React-Native, optimised for iOS</p>
+            <p>
+              Created with React-Native (front-end) and Firebase (backend &
+              authentication), optimised for iOS
+            </p>
             <br></br>
             <a
               href="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
