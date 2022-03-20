@@ -17,13 +17,13 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-gradient-to-r from-purple-200 h-20">
         {/*Home container*/}
-        <a className="text-xl font-semibold font-m" href="/">
+        <a className="text-xl font-semibold font-mono" href="/">
           Home
         </a>
       </div>
       <div className="flex flex-col ml-4">
         <a
-          className="text-xl font-medium my-4"
+          className="text-xl font-mono my-4"
           href="/about"
           onClick={() =>
             setTimeout(() => {
@@ -34,7 +34,7 @@ function MobileNav({ open, setOpen }) {
           About Me
         </a>
         <a
-          className="text-xl font-normal my-4"
+          className="text-xl font-mono my-4"
           href="/interesting"
           onClick={() =>
             setTimeout(() => {
@@ -45,7 +45,7 @@ function MobileNav({ open, setOpen }) {
           Interesting Facts
         </a>
         <a
-          className="text-xl font-normal my-4"
+          className="text-xl font-mono my-4"
           href="/projects"
           onClick={() =>
             setTimeout(() => {
@@ -56,7 +56,7 @@ function MobileNav({ open, setOpen }) {
           Projects
         </a>
         <a
-          className="text-xl font-normal my-4"
+          className="text-xl font-mono my-4"
           href="/contact"
           onClick={() =>
             setTimeout(() => {
