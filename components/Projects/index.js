@@ -17,7 +17,7 @@ export default function MyProjects() {
       <br></br>
       <div>
         <ul>
-          <li className="border-4 drop-shadow-2xl">
+          <li className="border-4">
             <h1 class="font-bold">Family Chore Planner App</h1>
             <br></br>
             <p>
@@ -35,7 +35,7 @@ export default function MyProjects() {
             </a>
           </li>
           <br></br>
-          <li className="border-4 drop-shadow-2xl">
+          <li className="border-4">
             <h1 class="font-bold">Meal Recipe Finder App</h1>
             <br></br>
             <p>
@@ -57,7 +57,7 @@ export default function MyProjects() {
           </li>
           <br></br>
           <br></br>
-          <li className="border-4 drop-shadow-2xl">
+          <li className="border-4">
             <h1 class="font-bold">Cocktail Recipe Finder App</h1>
             <br></br>
             <p>
@@ -79,7 +79,7 @@ export default function MyProjects() {
           </li>
           <br></br>
           <br></br>
-          <li className="border-4 drop-shadow-2xl">
+          <li className="border-4">
             <h1 class="font-bold">To Do List</h1>
             <br></br>
             <p>Created with React</p>
@@ -95,7 +95,7 @@ export default function MyProjects() {
           </li>
           <br></br>
           <br></br>
-          <li className="border-4 drop-shadow-2xl">
+          <li className="border-4">
             <h1 class="font-bold">5-Day Weather Forecast App</h1>
             <br></br>
             <p>
@@ -114,7 +114,7 @@ export default function MyProjects() {
           </li>
           <br></br>
           <br></br>
-          <li className="border-4 drop-shadow-2xl">
+          <li className="border-4">
             <h1 class="font-bold">5-Day Weather Forecast App (Gatsby)</h1>
             <br></br>
             <p>
