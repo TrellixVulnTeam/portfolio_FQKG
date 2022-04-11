@@ -18,7 +18,7 @@ export default function MyProjects() {
       <div>
         <ul>
           <li className="border-4">
-            <h1 class="font-bold">Family Chore Planner App</h1>
+            <h1 className="font-bold">Family Chore Planner App</h1>
             <br></br>
             <p>
               Created with React-Native (front-end) and Firebase (backend &
@@ -29,14 +29,14 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
               target="blank"
             >
-              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+              <div className="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img src={giphy.src} alt="Family App Gif" />
               </div>
             </a>
           </li>
           <br></br>
           <li className="border-4">
-            <h1 class="font-bold">Meal Recipe Finder App</h1>
+            <h1 className="font-bold">Meal Recipe Finder App</h1>
             <br></br>
             <p>
               Created with vanilla HTML, CSS, JavaScript & use of asynchronous
@@ -47,7 +47,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w3d5-fetch-recipe-challange-luke-lilly"
               target="blank"
             >
-              <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+              <div className=" max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img
                   src={MealRecipefinder.src}
                   alt="Photo of Meal Recipe Finder"
@@ -58,7 +58,7 @@ export default function MyProjects() {
           <br></br>
           <br></br>
           <li className="border-4">
-            <h1 class="font-bold">Cocktail Recipe Finder App</h1>
+            <h1 className="font-bold">Cocktail Recipe Finder App</h1>
             <br></br>
             <p>
               Created with vanilla HTML, CSS, JavaScript & use of asynchronous
@@ -69,7 +69,7 @@ export default function MyProjects() {
               href="https://github.com/lukechaplin/christmascocktails"
               target="blank"
             >
-              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+              <div className="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img
                   src={CocktailRecipeFinder.src}
                   alt="Photo of Cocktial Recipe Finder"
@@ -80,7 +80,7 @@ export default function MyProjects() {
           <br></br>
           <br></br>
           <li className="border-4">
-            <h1 class="font-bold">To Do List</h1>
+            <h1 className="font-bold">To Do List</h1>
             <br></br>
             <p>Created with React</p>
             <br></br>
@@ -96,7 +96,7 @@ export default function MyProjects() {
           <br></br>
           <br></br>
           <li className="border-4">
-            <h1 class="font-bold">5-Day Weather Forecast App</h1>
+            <h1 className="font-bold">5-Day Weather Forecast App</h1>
             <br></br>
             <p>
               Created with React, CSS & use of asynchronous function API calls
@@ -106,7 +106,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-37"
               target="blank"
             >
-              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+              <div className="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img src={weatherapp.src} alt="Photo of 5-Day Weather App" />
               </div>
             </a>
@@ -126,7 +126,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/hackathon-next-gatsby-room-16-antonio-and-luke"
               target="blank"
             >
-              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+              <div className="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img
                   src={Weatherappgatsby.src}
                   alt="Photo of 5-Day Weather App made with Gatsby"

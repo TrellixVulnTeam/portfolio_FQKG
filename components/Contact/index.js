@@ -2,13 +2,13 @@ export default function ContactForm() {
   return (
     <div className="text-2xl font-mono w-full'">
       <form
-        class="border-4 bg-gradient-to-r from-purple-200"
+        className="border-4 bg-gradient-to-r from-purple-200"
         action="https://usebasin.com/f/4dbdd7706b10"
         method="POST"
       >
         <label>First Name</label>
         <input
-          class="form-control block
+          className="form-control block
         w-full
         px-3
         py-1.5
@@ -29,7 +29,7 @@ export default function ContactForm() {
 
         <label>Last Name</label>
         <input
-          class="form-control block
+          className="form-control block
         w-full
         px-3
         py-1.5
@@ -50,7 +50,7 @@ export default function ContactForm() {
 
         <label>E-mail</label>
         <input
-          class="form-control block
+          className="form-control block
         w-full
         px-3
         py-1.5
@@ -71,7 +71,7 @@ export default function ContactForm() {
 
         <label>Subject</label>
         <textarea
-          class="form-control block
+          className="form-control block
         w-full
         px-3
         py-1.5
@@ -90,7 +90,7 @@ export default function ContactForm() {
         ></textarea>
 
         <input
-          class="form-control block
+          className="form-control block
         w-full
         px-3
         py-1.5

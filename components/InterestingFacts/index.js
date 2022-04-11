@@ -14,9 +14,9 @@ export default function InterestingFacts() {
           Interesting fact #1: I perform circus/acrobatics in my spare time
         </li>
         <br></br>
-        <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center">
+        <div className=" max-w-screen-lg mx-auto pb-10 flex justify-center">
           <img
-            class="drop-shadow-2xl max-w-xs rounded-full -z-10"
+            className="drop-shadow-2xl max-w-xs rounded-full -z-10"
             src={circus.src}
           />
         </div>
@@ -27,9 +27,9 @@ export default function InterestingFacts() {
           here is a pic of my old home
         </li>
         <br></br>
-        <div class=" max-w-screen-lg mx-auto pb-10 flex justify-center">
+        <div className=" max-w-screen-lg mx-auto pb-10 flex justify-center">
           <img
-            class="drop-shadow-2xl max-w-xs rounded-full -z-10"
+            className="drop-shadow-2xl max-w-xs rounded-full -z-10"
             src={boat.src}
           />
         </div>
@@ -40,9 +40,9 @@ export default function InterestingFacts() {
           a row :-(
         </li>
         <br></br>
-        <div class="max-w-screen-lg mx-auto pb-10 flex justify-center">
+        <div className="max-w-screen-lg mx-auto pb-10 flex justify-center">
           <img
-            class="drop-shadow-2xl max-w-xs rounded-full -z-10"
+            className="drop-shadow-2xl max-w-xs rounded-full -z-10"
             src={milkyBar.src}
           />
         </div>
