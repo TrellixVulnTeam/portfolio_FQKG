@@ -45,7 +45,7 @@ export default function Footer() {
           </a>
           <a
             className="hover:scale-150"
-            href="https://drive.google.com/file/d/1nwKcn5RcvYuVTl9z1MsMkzXCiyU91Lz1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KRGU9bz4RHqP03Z_n6lw55RR_hfnMa1q/view?usp=sharing"
             target="_blank"
           >
             <FontAwesomeIcon icon={faFile} />
