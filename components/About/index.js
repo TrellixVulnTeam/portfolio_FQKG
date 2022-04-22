@@ -3,7 +3,7 @@ export default function AboutMe() {
     <div className="text-2xl font-mono">
       <p>
         I recently decided to re-train and join the tech industry and I have
-        sucessfully completed a coding bootcamp and I am now a full stack
+        successfully completed a coding bootcamp and I am now a full stack
         software developer. I previously worked in the global pharmaceutical
         industry & UK NHS/academic sectors with extensive industry experience in
         clinical & medical device trials, budget & vendor management, training
