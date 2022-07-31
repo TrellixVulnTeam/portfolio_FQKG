@@ -3,7 +3,7 @@ export default function ContactForm() {
     <div className="text-2xl font-mono w-full'">
       <form
         className="border-4 bg-gradient-to-r from-purple-200"
-        action="https://usebasin.com/f/4dbdd7706b10"
+        action="https://usebasin.com/f/fb640abb9466"
         method="POST"
       >
         <label>First Name</label>
