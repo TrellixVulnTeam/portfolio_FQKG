@@ -4,8 +4,8 @@ export default function Media() {
       <p>
         {" "}
         Embed from my first ever podcast, which was recorded in April 2022 just
-        after I graduated my coding bootcamp. I talk about the importance of
-        mental health and my journey into tech.
+        after I graduated from my coding bootcamp. I talk about the importance
+        of mental health and my journey into tech.
       </p>
       <iframe
         className="p-6"
