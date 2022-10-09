@@ -88,7 +88,7 @@ export default function MyProjects() {
               href="https://github.com/SchoolOfCode/w7d4_react-hackathon-room-36-lilly-luke-andilham"
               target="blank"
             >
-              <div class="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
+              <div className="max-w-screen-lg mx-auto pb-10 flex justify-center -z-10">
                 <img src={ToDoList.src} alt="Photo of To Do List" />
               </div>
             </a>
@@ -115,7 +115,7 @@ export default function MyProjects() {
           <br></br>
           <br></br>
           <li className="border-4">
-            <h1 class="font-bold">5-Day Weather Forecast App (Gatsby)</h1>
+            <h1 className="font-bold">5-Day Weather Forecast App (Gatsby)</h1>
             <br></br>
             <p>
               Created with React, Gatsby & use of asynchronous function API

@@ -3,7 +3,7 @@ import Media from "../components/Media/index";
 
 export default function MediaList() {
   return (
-    <div div className="p-10 text-2xl font-mono ">
+    <div className="p-10 text-2xl font-mono ">
       <Head>
         <title>Luke Skycoder: Software development by Luke Chaplin</title>
       </Head>
